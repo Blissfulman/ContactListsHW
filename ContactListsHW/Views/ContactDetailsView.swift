@@ -11,15 +11,17 @@ struct ContactDetailsView: View {
     let contact: Contact
     
     var body: some View {
-        ZStack {
-            Color(white: 0.90)
-                .ignoresSafeArea()
-            VStack {
-                DetailsBlock(contact: contact)
+        Form {
+            HStack {
+                Spacer()
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+                    .padding()
                 Spacer()
             }
-            .padding()
-            
+            RowView(imageName: "phone", contactValue: contact.phoneNumber)
+            RowView(imageName: "tray", contactValue: contact.email)
         }
         .navigationBarTitle(contact.fullName)
     }

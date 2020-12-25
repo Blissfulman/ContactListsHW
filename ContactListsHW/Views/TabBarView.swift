@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TabBarView: View {
-    @State private var contactList = Contact.getRandomContacts()
+    private let contactList = Contact.getRandomContacts()
     
     var body: some View {
         TabView {

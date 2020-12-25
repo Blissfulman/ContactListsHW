@@ -15,10 +15,13 @@ struct DetailedContactList: View {
             List {
                 ForEach(contactList, id: \.self) { contact in
                     Section(header: Text(contact.fullName)) {
-                        PhoneRow(phoneNumber: contact.phoneNumber)
-                        EmailRow(email: contact.email)
+                        RowView(imageName: "phone",
+                                contactValue: contact.phoneNumber)
+                        RowView(imageName: "tray",
+                                contactValue: contact.email)
                     }
                 }
+                .textCase(.none)
             }
             .navigationBarTitle("Contact List")
         }

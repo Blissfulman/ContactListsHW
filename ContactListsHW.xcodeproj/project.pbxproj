@@ -16,9 +16,7 @@
 		CE4E489A2594581800EE4B9A /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48992594581800EE4B9A /* ContactList.swift */; };
 		CE4E489F25947A1A00EE4B9A /* DetailedContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E489E25947A1A00EE4B9A /* DetailedContactList.swift */; };
 		CE4E48A225947B4900EE4B9A /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48A125947B4900EE4B9A /* ContactDetailsView.swift */; };
-		CE4E48AC2594F48A00EE4B9A /* DetailsBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48AB2594F48A00EE4B9A /* DetailsBlock.swift */; };
-		CE4E48B22594F95400EE4B9A /* PhoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48B12594F95400EE4B9A /* PhoneRow.swift */; };
-		CE4E48B62594F9D100EE4B9A /* EmailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48B52594F9D100EE4B9A /* EmailRow.swift */; };
+		CE4E48AC2594F48A00EE4B9A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E48AB2594F48A00EE4B9A /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +31,7 @@
 		CE4E48992594581800EE4B9A /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		CE4E489E25947A1A00EE4B9A /* DetailedContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedContactList.swift; sourceTree = "<group>"; };
 		CE4E48A125947B4900EE4B9A /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
-		CE4E48AB2594F48A00EE4B9A /* DetailsBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsBlock.swift; sourceTree = "<group>"; };
-		CE4E48B12594F95400EE4B9A /* PhoneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneRow.swift; sourceTree = "<group>"; };
-		CE4E48B52594F9D100EE4B9A /* EmailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRow.swift; sourceTree = "<group>"; };
+		CE4E48AB2594F48A00EE4B9A /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +114,7 @@
 		CE4E48AA2594F45200EE4B9A /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
-				CE4E48AB2594F48A00EE4B9A /* DetailsBlock.swift */,
-				CE4E48B12594F95400EE4B9A /* PhoneRow.swift */,
-				CE4E48B52594F9D100EE4B9A /* EmailRow.swift */,
+				CE4E48AB2594F48A00EE4B9A /* RowView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -195,14 +189,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4E489F25947A1A00EE4B9A /* DetailedContactList.swift in Sources */,
-				CE4E48B62594F9D100EE4B9A /* EmailRow.swift in Sources */,
 				CE4E487F2594572100EE4B9A /* TabBarView.swift in Sources */,
 				CE4E488D2594573400EE4B9A /* DataManager.swift in Sources */,
 				CE4E48A225947B4900EE4B9A /* ContactDetailsView.swift in Sources */,
 				CE4E48912594575500EE4B9A /* Contact.swift in Sources */,
 				CE4E489A2594581800EE4B9A /* ContactList.swift in Sources */,
-				CE4E48B22594F95400EE4B9A /* PhoneRow.swift in Sources */,
-				CE4E48AC2594F48A00EE4B9A /* DetailsBlock.swift in Sources */,
+				CE4E48AC2594F48A00EE4B9A /* RowView.swift in Sources */,
 				CE4E487D2594572100EE4B9A /* ContactListsHWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
